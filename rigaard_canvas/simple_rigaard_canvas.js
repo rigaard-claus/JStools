@@ -425,7 +425,7 @@ var rigaard_radiant_chart = (function() {
                         if(quadrant==4) {
                             rigaard_canvas.message(this["x"]-Math.floor(area_size/100),this["y"]-Math.floor(area_size/20),json_keys[message_key],Math.floor(area_size/32),"sans-serif","#FFFFFF","#529CC1",true);
                         }
-                        console.log("quadrant="+quadrant+", "+json_keys[message_key] + " : " + message_key + "/" + round_delimiter);
+                        //console.log("quadrant="+quadrant+", "+json_keys[message_key] + " : " + message_key + "/" + round_delimiter);
                                                 
                         message_key++;
                     }
